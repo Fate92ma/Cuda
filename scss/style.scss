@@ -1,0 +1,358 @@
+/*
+
+Template Name: Cuda
+Template Url: https://fate92ma.github.io/Cuda
+Contact Me: fatema131khaled@gmail.com
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+/* Start Template Root */
+
+$font: 'Titillium Web' !important;
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: $font;
+}
+
+@mixin smooth {
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+@mixin btnStyle {
+    @include smooth;
+    font-family: $font !important;
+    border: none;
+    font-size: 18px;
+}
+
+.hr {
+    border-bottom: 3px solid rgba(0, 0, 0, 0.15);
+    width: 20%;
+}
+
+.card {
+    border: none !important;
+    background: transparent !important;
+}
+
+p {
+    font-size: 19px !important;
+}
+
+h1 {
+    font-size: 42px !important;
+}
+
+h2 {
+    font-size: 38px !important;
+}
+
+/* End Template Root */
+
+/* Start Navbar */
+
+.navbar {
+    background: #87509c;
+
+    .nav-link {
+        @include smooth;
+
+        &:hover {
+            color: #fff !important;
+            background: #78478b;
+        }
+    }
+}
+
+.navbar-light .navbar-toggler {
+    outline: 0 !important;
+    border-color: #fff !important;
+}
+
+/* End Navbar */
+
+/* Start Home */
+
+#home {
+    background: #87509c;
+
+    article {
+
+        .btn1 {
+            @include btnStyle;
+            background: #eb7d4b;
+
+            &:hover {
+                background: #c86a40;
+            }
+        }
+    }
+}
+
+/* End Home */
+
+/* Start Services */
+
+#services {
+    background: #17c2a4;
+
+    .container {
+
+        article {
+
+            hr {
+                @extend .hr;
+            }
+        }
+    }
+
+    .row {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+
+        .card-title {
+            font-size: 22px;
+        }
+
+        .card-img,
+        .card-img-bottom,
+        .card-img-top {
+            width: fit-content !important;
+        }
+    }
+}
+
+/* End Services */
+
+/* Start Team */
+
+#team {
+    color: #3c4761;
+    background: #e7f1f8;
+
+    .container {
+
+        article {
+
+            hr {
+                @extend .hr;
+            }
+        }
+    }
+
+    .row {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+
+        img {
+            width: fit-content;
+        }
+    }
+}
+
+/* End Team */
+
+/* Start Skills */
+
+#skills {
+    color: #3c4761;
+
+    .container {
+
+        article {
+
+            hr {
+                @extend .hr;
+            }
+        }
+
+        .card {
+            align-items: center;
+
+            .card-title {
+
+                p {
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+}
+
+/* End Skills */
+
+/* Start Portfolio */
+
+#portfolio {
+    background: #ffdd99;
+    color: #393939;
+
+    .container {
+
+        article {
+
+            hr {
+                @extend .hr;
+            }
+        }
+
+        ul {
+
+            li.col-lg {
+                cursor: pointer;
+                @include smooth;
+                background: #ebc985;
+            }
+
+            li.active {
+                background: #fff;
+            }
+        }
+    }
+
+    .shuffle {
+
+        .row {
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+        }
+    }
+
+    .btn1 {
+        @include btnStyle;
+        background: #17c2a4;
+
+        &:hover {
+            background: #14a58c;
+        }
+    }
+}
+
+/* End Portfolio */
+
+/* Start Testimonials */
+
+#testimonials {
+    background: #d74680;
+
+    .container {
+
+        article {
+
+            hr {
+                @extend .hr;
+            }
+        }
+    }
+
+    .row {
+
+        .col-lg {
+
+            border: 1px solid rgba(0, 0, 0, .125) !important;
+        }
+
+        div {
+
+            p:nth-of-type(1) {
+                font-size: 20px;
+            }
+
+        }
+    }
+
+}
+
+/* End Testimonials */
+
+/* Start Contact */
+
+#contact {
+    background: #3c5499;
+
+    .container {
+
+        article {
+
+            hr {
+                @extend .hr;
+            }
+        }
+
+        input,
+        textarea {
+            @include btnStyle;
+            background: #273a71;
+        }
+
+        .btn1 {
+            @include btnStyle;
+            background: #30bae7;
+
+            &:hover {
+                background: #299ec5;
+            }
+
+        }
+    }
+}
+
+/* End Contact */
+
+/* Start Footer */
+
+footer {
+    background: #354a87;
+
+    ul {
+
+        margin: 0 !important;
+
+        li {
+            cursor: pointer;
+            font-size: 22px;
+        }
+    }
+}
+
+/* End Footer */
+
+/* Start Media Query */
+
+@media (max-width: 992px) {
+    .navbar {
+        border-bottom: 2px solid #78478b;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 36px !important;
+    }
+
+    h2 {
+        font-size: 32px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 30px !important;
+    }
+
+    h2 {
+        font-size: 28px !important;
+    }
+}
+
+/* End Media Query */

@@ -1,0 +1,300 @@
+/*
+
+Template Name: Cuda
+Template Url: https://fate92ma.github.io/Cuda
+Contact Me: fatema131khaled@gmail.com
+
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
+
+/* Start Template Root */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Titillium Web" !important;
+}
+
+.hr,
+#contact .container article hr,
+#testimonials .container article hr,
+#portfolio .container article hr,
+#skills .container article hr,
+#team .container article hr,
+#services .container article hr {
+    border-bottom: 3px solid rgba(0, 0, 0, 0.15);
+    width: 20%;
+}
+
+.card {
+    border: none !important;
+    background: transparent !important;
+}
+
+p {
+    font-size: 19px !important;
+}
+
+h1 {
+    font-size: 42px !important;
+}
+
+h2 {
+    font-size: 38px !important;
+}
+
+/* End Template Root */
+
+/* Start Navbar */
+
+.navbar {
+    background: #87509c;
+}
+
+.navbar .nav-link {
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.navbar .nav-link:hover {
+    color: #fff !important;
+    background: #78478b;
+}
+
+.navbar-light .navbar-toggler {
+    outline: 0 !important;
+    border-color: #fff !important;
+}
+
+/* End Navbar */
+
+/* Start Home */
+
+#home {
+    background: #87509c;
+}
+
+#home article .btn1 {
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    font-family: "Titillium Web" !important !important;
+    border: none;
+    font-size: 18px;
+    background: #eb7d4b;
+}
+
+#home article .btn1:hover {
+    background: #c86a40;
+}
+
+/* End Home */
+
+/* Start Services */
+
+#services {
+    background: #17c2a4;
+}
+
+#services .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+#services .row .card-title {
+    font-size: 22px;
+}
+
+#services .row .card-img,
+#services .row .card-img-bottom,
+#services .row .card-img-top {
+    width: fit-content !important;
+}
+
+/* End Services */
+
+/* Start Team */
+
+#team {
+    color: #3c4761;
+    background: #e7f1f8;
+}
+
+#team .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+#team .row img {
+    width: fit-content;
+}
+
+/* End Team */
+
+/* Start Skills */
+
+#skills {
+    color: #3c4761;
+}
+
+#skills .container .card {
+    align-items: center;
+}
+
+#skills .container .card .card-title p {
+    font-size: 30px;
+}
+
+/* End Skills */
+
+/* Start Portfolio */
+
+#portfolio {
+    background: #ffdd99;
+    color: #393939;
+}
+
+#portfolio .container ul li.col-lg {
+    cursor: pointer;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    background: #ebc985;
+}
+
+#portfolio .container ul li.active {
+    background: #fff;
+}
+
+#portfolio .shuffle .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+#portfolio .btn1 {
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    font-family: "Titillium Web" !important !important;
+    border: none;
+    font-size: 18px;
+    background: #17c2a4;
+}
+
+#portfolio .btn1:hover {
+    background: #14a58c;
+}
+
+/* End Portfolio */
+
+/* Start Testimonials */
+
+#testimonials {
+    background: #d74680;
+}
+
+#testimonials .row .col-lg {
+    border: 1px solid rgba(0, 0, 0, 0.125) !important;
+}
+
+#testimonials .row div p:nth-of-type(1) {
+    font-size: 20px;
+}
+
+/* End Testimonials */
+
+/* Start Contact */
+
+#contact {
+    background: #3c5499;
+}
+
+#contact .container input,
+#contact .container textarea {
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    font-family: "Titillium Web" !important !important;
+    border: none;
+    font-size: 18px;
+    background: #273a71;
+}
+
+#contact .container .btn1 {
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    font-family: "Titillium Web" !important !important;
+    border: none;
+    font-size: 18px;
+    background: #30bae7;
+}
+
+#contact .container .btn1:hover {
+    background: #299ec5;
+}
+
+/* End Contact */
+
+/* Start Footer */
+
+footer {
+    background: #354a87;
+}
+
+footer ul {
+    margin: 0 !important;
+}
+
+footer ul li {
+    cursor: pointer;
+    font-size: 22px;
+}
+
+/* End Footer */
+
+/* Start Media Query */
+
+@media (max-width: 992px) {
+    .navbar {
+        border-bottom: 2px solid #78478b;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 36px !important;
+    }
+
+    h2 {
+        font-size: 32px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 30px !important;
+    }
+
+    h2 {
+        font-size: 28px !important;
+    }
+}
+
+/* End Media Query */
