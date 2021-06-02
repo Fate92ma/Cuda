@@ -1,6 +1,7 @@
 // Skills
 
 $(window).on('scroll', function () {
+    
     $topOffset = $(this).scrollTop();
 
     if ($topOffset > 1650) {
